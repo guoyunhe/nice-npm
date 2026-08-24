@@ -1,29 +1,8 @@
 {
   "appName": {
-    "message": "网红检测器"
+    "message": "nice-npm"
   },
   "appDesc": {
-    "message": "帮助你在观看 YouTube 和 Bilibili 视频时，快速找出其中的模特和 Coder/Cosplayer。"
-  },
-  "unsupported": {
-    "message": "不支持的页面"
-  },
-  "notFound": {
-    "message": "在此帖子中未找到网红。"
-  },
-  "ask": {
-    "message": "向社区提问"
-  },
-  "submit": {
-    "message": "提供信息"
-  },
-  "askOrSubmit": {
-    "message": "提问或提供信息"
-  },
-  "comments": {
-    "message": "评论"
-  },
-  "anonymous": {
-    "message": "匿名"
+    "message": "一款 Chrome 和 Firefox 浏览器扩展，全方位增强 npmjs.com 的使用体验"
   }
 }
