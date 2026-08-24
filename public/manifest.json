@@ -28,9 +28,16 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.npmjs.com/*"
+        "https://www.npmjs.com/search*"
       ],
-      "js": ["content.js"],
+      "js": ["content-search.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://www.npmjs.com/package/*"
+      ],
+      "js": ["content-package.js"],
       "run_at": "document_idle"
     }
   ],
