@@ -1,20 +1,30 @@
 {
   "name": "nice-npm",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "tsc -b && vite build",
+    "dev": "vite",
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check .",
+    "prepare": "husky",
     "preview": "vite preview"
   },
   "dependencies": {
     "preact": "^10.29.7"
   },
   "devDependencies": {
+    "@guoyunhe/oxfmt-config": "^1.1.0",
     "@preact/preset-vite": "^2.10.6",
     "@types/node": "^24.13.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.3.0",
+    "oxfmt": "^0.65.0",
     "typescript": "~6.0.2",
     "vite": "^8.2.0"
+  },
+  "lint-staged": {
+    "*.{js,mjs,cjs,ts,mts,cts,jsx,tsx,vue,json,jsonc,css,scss,less,htm,html,md,mdx,yaml,yml}": "oxfmt --write"
   }
 }

@@ -4,5 +4,5 @@ export function App() {
       <h1>nice-npm — Settings</h1>
       <p>Options content goes here.</p>
     </main>
-  )
+  );
 }

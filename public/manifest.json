@@ -22,21 +22,15 @@
     "open_in_tab": false
   },
   "permissions": ["storage", "activeTab", "tabs"],
-  "host_permissions": [
-    "https://www.npmjs.com/*"
-  ],
+  "host_permissions": ["https://www.npmjs.com/*"],
   "content_scripts": [
     {
-      "matches": [
-        "https://www.npmjs.com/search*"
-      ],
+      "matches": ["https://www.npmjs.com/search*"],
       "js": ["content-search.js"],
       "run_at": "document_idle"
     },
     {
-      "matches": [
-        "https://www.npmjs.com/package/*"
-      ],
+      "matches": ["https://www.npmjs.com/package/*"],
       "js": ["content-package.js"],
       "run_at": "document_idle"
     }
