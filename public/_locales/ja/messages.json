@@ -1,0 +1,29 @@
+{
+  "appName": {
+    "message": "インフルエンサー検出器"
+  },
+  "appDesc": {
+    "message": "YouTubeやBilibiliで視聴中の動画に登場するモデルやコスプレイヤーを特定します。"
+  },
+  "unsupported": {
+    "message": "サポートされていないページ"
+  },
+  "notFound": {
+    "message": "この投稿にはインフルエンサーが見つかりませんでした。"
+  },
+  "ask": {
+    "message": "コミュニティに質問する"
+  },
+  "submit": {
+    "message": "情報を提供する"
+  },
+  "askOrSubmit": {
+    "message": "質問または情報提供"
+  },
+  "comments": {
+    "message": "コメント"
+  },
+  "anonymous": {
+    "message": "匿名"
+  }
+}
