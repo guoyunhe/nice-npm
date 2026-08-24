@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  color: #222;
+  background: #fff;
+}
+
+body {
+  min-width: 320px;
+  padding: 16px;
+}
