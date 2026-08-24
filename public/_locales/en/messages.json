@@ -1,29 +1,8 @@
 {
   "appName": {
-    "message": "Influencer Detector"
+    "message": "nice-npm"
   },
   "appDesc": {
-    "message": "Find out models and cosplayers behind the videos you watch on YouTube and Bilibili."
-  },
-  "unsupported": {
-    "message": "Unsupported page"
-  },
-  "notFound": {
-    "message": "No influencer found in this post."
-  },
-  "ask": {
-    "message": "Ask the community"
-  },
-  "submit": {
-    "message": "Provide information"
-  },
-  "askOrSubmit": {
-    "message": "Ask or provide information"
-  },
-  "comments": {
-    "message": "Comments"
-  },
-  "anonymous": {
-    "message": "Anonymous"
+    "message": "chrome & firefox web browser extension to enhance npmjs.com in every possible way"
   }
 }
