@@ -23,33 +23,14 @@
   },
   "permissions": ["storage", "activeTab", "tabs"],
   "host_permissions": [
-    "https://infdet.com/*",
-    "https://*.infdet.com/*",
-    "https://*.youtube.com/*",
-    "https://youtu.be/*",
-    "https://*.bilibili.com/*",
-    "https://*.x.com/*",
-    "https://*.twitter.com/*",
-    "https://*.tiktok.com/*"
+    "https://www.npmjs.com/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://infdet.com/*",
-        "https://*.infdet.com/*",
-        "https://*.youtube.com/*",
-        "https://youtu.be/*",
-        "https://*.bilibili.com/*",
-        "https://*.x.com/*",
-        "https://*.twitter.com/*",
-        "https://*.tiktok.com/*"
+        "https://www.npmjs.com/*"
       ],
       "js": ["content.js"],
-      "run_at": "document_idle"
-    },
-    {
-      "matches": ["https://*.youtube.com/*", "https://youtu.be/*"],
-      "js": ["youtube.js"],
       "run_at": "document_idle"
     }
   ],
@@ -60,7 +41,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "extension@infdet.com",
+      "id": "nice-npm@guoyunhe.com",
       "strict_min_version": "115.0",
       "data_collection_permissions": {
         "required": ["none"]
