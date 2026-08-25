@@ -7,7 +7,7 @@
     },
     "condition": {
       "_comment": "Travis CI is slow and always timeout",
-      "urlFilter": "https://secure.travis-ci.org/*",
+      "urlFilter": "*://secure.travis-ci.org/*",
       "initiatorDomains": ["www.npmjs.com"],
       "resourceTypes": [
         "main_frame",
@@ -17,6 +17,45 @@
         "image",
         "xmlhttprequest"
       ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "_comment": "Block Google Fonts CSS to reduce external requests",
+      "urlFilter": "*://fonts.googleapis.com/*",
+      "initiatorDomains": ["www.npmjs.com"],
+      "resourceTypes": ["stylesheet"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "_comment": "Block Google Fonts static files to reduce external requests",
+      "urlFilter": "*://fonts.gstatic.com/*",
+      "initiatorDomains": ["www.npmjs.com"],
+      "resourceTypes": ["font", "stylesheet"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "_comment": "Block nodei.co npm badge images",
+      "urlFilter": "*://nodei.co/*",
+      "initiatorDomains": ["www.npmjs.com"],
+      "resourceTypes": ["image", "script", "xmlhttprequest", "sub_frame"]
     }
   }
 ]
