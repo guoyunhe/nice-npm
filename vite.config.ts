@@ -15,7 +15,7 @@ export default defineConfig({
   },
   input: {
     background: resolve(import.meta.dirname, 'src', 'background.ts'),
-    'content-package': resolve(import.meta.dirname, 'src', 'content-package', 'index.ts'),
+    'content-package': resolve(import.meta.dirname, 'src', 'content-package', 'index.tsx'),
     'content-search': resolve(import.meta.dirname, 'src', 'content-search', 'index.ts'),
     options: resolve(import.meta.dirname, 'options.html'),
     popup: resolve(import.meta.dirname, 'popup.html'),

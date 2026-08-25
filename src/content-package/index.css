@@ -1,0 +1,46 @@
+.nice-npm-snyk {
+  margin: 8px 0 16px;
+  font-size: 14px;
+}
+
+.nice-npm-snyk--loading,
+.nice-npm-snyk--error {
+  color: #777;
+  font-style: italic;
+}
+
+.nice-npm-snyk__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 4px 12px 4px 4px;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.15s;
+}
+
+.nice-npm-snyk__link:hover {
+  box-shadow: 0 1px 6px rgb(0 0 0 / 0.15);
+}
+
+.nice-npm-snyk__badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.nice-npm-snyk__label {
+  font-weight: 500;
+}
+
+.nice-npm-snyk__arrow {
+  font-size: 12px;
+  opacity: 0.5;
+}

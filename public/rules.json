@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "_comment": "Travis CI is slow and always timeout",
+      "urlFilter": "https://secure.travis-ci.org/*",
+      "initiatorDomains": ["www.npmjs.com"],
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame",
+        "stylesheet",
+        "script",
+        "image",
+        "xmlhttprequest"
+      ]
+    }
+  }
+]
